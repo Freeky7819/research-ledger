@@ -30,6 +30,10 @@ idea ──► sieve (5 min) ──► translation ──► prior art ──►
 
 On first use the skill asks 6–8 short questions (language, field, where the ledger lives, which models you can use for blind rounds, how strict to be, and your own favourite hypotheses so they are never used as premises) and writes `research-ledger.config.md`. You can skip it; defaults are sensible.
 
+Where the settings come from, in order: a `research-ledger.config.md` file in the project, then what the assistant already knows about you (saved memory or project instructions), then the setup questions. If it uses memory, it shows you the inferred settings and offers the fresh setup.
+
+**One ledger per project.** Unrelated projects should not share a ledger: give each its own config file or ID prefix, so eliminations and IDs do not mix. The assistant asks at the start of a new project.
+
 Strictness: **light** (a conversation, no files), **standard** (preregistration and ledger entries), **full** (pilot/confirmatory separation, blind rounds, Git ledger). Without blind rounds the highest verdict is BRIDGE CANDIDATE.
 
 ## Install
@@ -48,6 +52,8 @@ The skill is the folder [`research-ledger/`](research-ledger/).
   ```
 - **Claude.ai**: zip the `research-ledger/` folder and upload it under Settings → Capabilities → Skills.
 - **Codex / ChatGPT**: the folder includes `agents/openai.yaml`. For Codex, copy the folder to the skills directory your Codex version reads (commonly `~/.codex/skills/` or `.agents/skills/` in a repository; check your client's documentation). In ChatGPT, upload the zipped folder where your plan supports skills.
+
+**Testing it as a new user.** If your assistant already knows you (memory, other research skills), it will adapt instead of asking. To see the onboarding a stranger gets, invoke the skill explicitly (`/research-ledger` in Claude) and say "run the fresh setup", or try it in a conversation without memory.
 
 Then just talk: "here is an idea…", "evaluate this paper", "this test gave 0.62, what now?", "write a blind-round seed for this".
 

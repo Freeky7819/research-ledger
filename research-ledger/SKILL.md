@@ -16,6 +16,10 @@ Before the first real use in a project, look for the user's configuration:
 2. otherwise the user's saved memory or project instructions,
 3. otherwise run the short setup in `references/setup-guide.md` (6–8 questions, under five minutes) and write the config file with the user's answers (or show it to them to save, if you cannot write files).
 
+When the config comes from memory (step 2) rather than a file, show the inferred settings as a short table, say where they came from, and offer the fresh setup in one line; the user may want to test the skill as a new user would.
+
+**One ledger per project.** If the user works on several unrelated projects, each gets its own ledger and ID space (e.g. a different prefix or config file per project). At the start of a new project, ask whether it belongs to an existing ledger or needs its own, so IDs and eliminations do not mix.
+
 The config fixes: language, field, where the ledger lives, who assigns IDs, available models for blind rounds, role names, strictness level, and the user's own pet hypotheses that must never be used as premises. If the user declines setup, use the defaults in `references/config-template.md` and say so in one line.
 
 Strictness levels (from the config, can be overridden per request):
