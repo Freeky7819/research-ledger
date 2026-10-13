@@ -1,0 +1,12 @@
+interface:
+  display_name: Research ledger
+  short_description: Disciplined loop for speculative ideas — sieve, prior art, preregistration, blind rounds, verdicts, append-only ledger
+  default_prompt: Use $research-ledger for this idea, paper or test result. First read research-ledger.config.md (run the setup guide if it is missing) and check the ledger for a repeat. Then give the verdict (DEAD / LANDED / BRIDGE CANDIDATE / BRIDGE / EXPLANATION), the useful checks, a ledger entry, and one next discriminating test or a blind-round seed.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  allow_implicit_invocation: true
