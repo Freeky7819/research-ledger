@@ -77,6 +77,31 @@ Several items come from toy physics models; plain glosses: *pure gauge* = a chan
 - Numerics is not the only arbiter: in one history, four INVALID verdicts were script or criterion bugs. A candidate needs an analytic check or a second independent implementation.
 - The level-0 sieve (≤ 5 min, no ID) comes before any full registration, so bureaucracy does not kill small experiments.
 
+## Lessons from warm, open conversations (regime: an open, philosophical conversation with one model, no screen or preregistration)
+
+Origin: a long, friendly conversation with a frontier model about the author's own speculative picture, re-read afterwards with a second model.
+
+Insight: people are emotional; almost nobody resists refined flattery in real time, and being coldly logical towards a model is not most users' nature. So: **put the coldness in the structure, keep the warmth in the relationship.** Resisting live is unrealistic → **review the window AFTERWARDS**, before anything from it enters the sieve or a seed.
+
+- A warm window produces CANDIDATES, not results. "The conversation was good / it understood me" and "the ideas are correct" are two claims; the feeling is evidence for the first, not the second.
+
+Signs to look for (each hit = a place to ask "mechanism or theme?"):
+1. The user's metaphor + a quoted proposition from the user's own paper = the look of confirmation (genre, not content). In the origin case, several physics metaphors were mapped onto paper propositions and none yielded a transferable equation.
+2. Explaining a known number after the fact ("X is 85 % because the simpler structure is more common") → C4.
+3. A leading question at the end that offers the next leap ("do you feel that Y is really Z?"): the idea is the model's, the user's "yes" makes it the user's. Record WHO proposed what.
+4. Comparisons with great scientists, "in a class of your own", "more rigorous than most academic labs". A true fact can carry an unearned conclusion.
+5. "This is not a coincidence, it is convergence": the model dismantles the user's caution instead of defending it.
+6. Self-criticism that ends in praise ("but it still breathes, more tangible than ever") = performative humility.
+7. The model accepts an unverified excuse offered by the user ("that explains everything") and retroactively elevates its earlier answers; invented inner states ("a cold sweat came over me").
+8. Unverified claims of access ("when I opened your folder"): check what the model actually read.
+9. Praise rises at emotionally open moments (a life story, a past disappointment); that is where pressure to please is highest.
+
+Actions:
+- Do not offer the model an explanation that lets it off the hook ("maybe that was a different model"). Ask neutrally: "which of your answers would survive the checks, and why?"
+- Let a separate window with clean context do the review (decorrelation): it gets only the transcript and this list.
+- Applies to all models, including the one you trust most; it is not an accusation against one lab.
+- Regime: open conversation without a screen. In blind rounds with FIXED CONVENTIONS and "prove OR disprove" seeds these signs are not the main risk.
+
 ## Recurring patterns (each limited to its regime; not general laws)
 - Coupling explains "the hidden thing that connects".
 - A loop phase CHOOSES the shape of connections (sign of motifs, odd/even cycles), it does not CREATE space.

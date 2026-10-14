@@ -56,6 +56,7 @@ Role names can be renamed in the config.
 
 - **Level 0, sieve** (≤ 5 min, no ID): does the idea already fail a check (§5) analytically? Is it a repeat from the ledger? If yes, a one-line note ("sieve: <idea> → <reason>"), no preregistration, no blind round.
 - **Level 1, full registration**: only when the idea survives the sieve and needs numerics, a new theorem, or literature not already at hand.
+- **Warm window**: whatever comes out of an open, philosophical conversation without a screen or preregistration is a CANDIDATE, not a result. Before it enters the sieve or a seed, review the window afterwards for signs of sycophancy (`references/checks-and-lessons.md`, "Lessons from warm, open conversations"), ideally in a separate window with clean context.
 
 ## 4. Anchor, "what if" space, translation
 
